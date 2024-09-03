@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルなウェブページ</title>
+    <style>
+        /* グローバルスタイル */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* ヘッダーのスタイル */
+        header {
+            background-color: #440000; /* ヘッダーの背景色を設定 */
+            color: white; /* ヘッダー内のテキストの色 */
+            padding: 1rem;
+            text-align: center;
+        }
+
+        /* メインコンテンツのスタイル */
+        main {
+            flex: 1;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        main img {
+            max-width: 100%; /* 画像が親要素の幅に収まるように設定 */
+            height: auto; /* アスペクト比を保つ */
+            margin-top: 1rem; /* 画像の上部にマージンを追加 */
+        }
+
+        /* フッターのスタイル */
+        footer {
+            background-color: #f1f1f1;
+            color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>シンプルなウェブページ</h1>
+    </header>
+    <main>
+        <p>これはシンプルなウェブページのサンプルです。ここに最初のテキストの段落が表示されます。</p>
+        <p>こちらは二つ目のテキストの段落です。追加の情報や説明をここに書くことができます。</p>
+        <img src="your-image-url.jpg" alt="サンプル画像">
+    </main>
+    <footer>
+        <p>&copy; 2024 あなたの名前</p>
+    </footer>
+</body>
+</html>
